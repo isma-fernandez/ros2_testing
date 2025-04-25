@@ -69,28 +69,28 @@ include CMakeFiles/my_first_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/my_first_node.dir/flags.make
 
-CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o: CMakeFiles/my_first_node.dir/flags.make
-CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o: /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/my_first_node.cpp
-CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o: CMakeFiles/my_first_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o -MF CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o.d -o CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o -c /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/my_first_node.cpp
+CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o: CMakeFiles/my_first_node.dir/flags.make
+CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o: /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/template_node/my_first_node.cpp
+CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o: CMakeFiles/my_first_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o -MF CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o.d -o CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o -c /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/template_node/my_first_node.cpp
 
-CMakeFiles/my_first_node.dir/src/my_first_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_first_node.dir/src/my_first_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/my_first_node.cpp > CMakeFiles/my_first_node.dir/src/my_first_node.cpp.i
+CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/template_node/my_first_node.cpp > CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.i
 
-CMakeFiles/my_first_node.dir/src/my_first_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_first_node.dir/src/my_first_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/my_first_node.cpp -o CMakeFiles/my_first_node.dir/src/my_first_node.cpp.s
+CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/template_node/my_first_node.cpp -o CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.s
 
 # Object files for target my_first_node
 my_first_node_OBJECTS = \
-"CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o"
+"CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o"
 
 # External object files for target my_first_node
 my_first_node_EXTERNAL_OBJECTS =
 
-my_first_node: CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o
+my_first_node: CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o
 my_first_node: CMakeFiles/my_first_node.dir/build.make
 my_first_node: /opt/ros/jazzy/lib/librclcpp.so
 my_first_node: /opt/ros/jazzy/lib/liblibstatistics_collector.so

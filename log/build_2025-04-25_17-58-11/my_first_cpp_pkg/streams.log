@@ -1,0 +1,6 @@
+[0.020s] Invoking command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg -- -j6 -l6
+[0.107s] [ 20%] Built target publisher_test
+[0.109s] [ 40%] Built target publisher_test_2
+[0.121s] [ 60%] Built target my_first_node
+[0.123s] [ 80%] Built target publisher_and_subscriber_test
+[0.123s] [100%] Built target subscriber_test

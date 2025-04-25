@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/my_first_node.cpp" "CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o" "gcc" "CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o.d"
+  "/home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/template_node/my_first_node.cpp" "CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o" "gcc" "CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

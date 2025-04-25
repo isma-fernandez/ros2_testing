@@ -10,9 +10,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
 
-add_executable(my_first_node src/my_first_node.cpp)
-add_executable(publisher_test src/publisher_test.cpp)
-add_executable(subscriber_test src/subscriber_test.cpp)
+add_executable(my_first_node src/template_node/my_first_node.cpp)
+add_executable(publisher_test src/tests_publisher_subscriber/publisher_test.cpp)
+add_executable(subscriber_test src/tests_publisher_subscriber/subscriber_test.cpp)
 add_executable(publisher_test_2 src/tests_publisher_subscriber/publisher_test2.cpp)
 add_executable(publisher_and_subscriber_test src/tests_publisher_subscriber/publisher_and_subscriber_test.cpp)
 

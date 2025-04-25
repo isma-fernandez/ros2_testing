@@ -262,77 +262,29 @@ publisher_and_subscriber_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_and_subscriber_test.dir/build.make CMakeFiles/publisher_and_subscriber_test.dir/build
 .PHONY : publisher_and_subscriber_test/fast
 
-src/my_first_node.o: src/my_first_node.cpp.o
-.PHONY : src/my_first_node.o
+src/template_node/my_first_node.o: src/template_node/my_first_node.cpp.o
+.PHONY : src/template_node/my_first_node.o
 
 # target to build an object file
-src/my_first_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_node.dir/build.make CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o
-.PHONY : src/my_first_node.cpp.o
+src/template_node/my_first_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_node.dir/build.make CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o
+.PHONY : src/template_node/my_first_node.cpp.o
 
-src/my_first_node.i: src/my_first_node.cpp.i
-.PHONY : src/my_first_node.i
-
-# target to preprocess a source file
-src/my_first_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_node.dir/build.make CMakeFiles/my_first_node.dir/src/my_first_node.cpp.i
-.PHONY : src/my_first_node.cpp.i
-
-src/my_first_node.s: src/my_first_node.cpp.s
-.PHONY : src/my_first_node.s
-
-# target to generate assembly for a file
-src/my_first_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_node.dir/build.make CMakeFiles/my_first_node.dir/src/my_first_node.cpp.s
-.PHONY : src/my_first_node.cpp.s
-
-src/publisher_test.o: src/publisher_test.cpp.o
-.PHONY : src/publisher_test.o
-
-# target to build an object file
-src/publisher_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_test.dir/build.make CMakeFiles/publisher_test.dir/src/publisher_test.cpp.o
-.PHONY : src/publisher_test.cpp.o
-
-src/publisher_test.i: src/publisher_test.cpp.i
-.PHONY : src/publisher_test.i
+src/template_node/my_first_node.i: src/template_node/my_first_node.cpp.i
+.PHONY : src/template_node/my_first_node.i
 
 # target to preprocess a source file
-src/publisher_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_test.dir/build.make CMakeFiles/publisher_test.dir/src/publisher_test.cpp.i
-.PHONY : src/publisher_test.cpp.i
+src/template_node/my_first_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_node.dir/build.make CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.i
+.PHONY : src/template_node/my_first_node.cpp.i
 
-src/publisher_test.s: src/publisher_test.cpp.s
-.PHONY : src/publisher_test.s
-
-# target to generate assembly for a file
-src/publisher_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_test.dir/build.make CMakeFiles/publisher_test.dir/src/publisher_test.cpp.s
-.PHONY : src/publisher_test.cpp.s
-
-src/subscriber_test.o: src/subscriber_test.cpp.o
-.PHONY : src/subscriber_test.o
-
-# target to build an object file
-src/subscriber_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_test.dir/build.make CMakeFiles/subscriber_test.dir/src/subscriber_test.cpp.o
-.PHONY : src/subscriber_test.cpp.o
-
-src/subscriber_test.i: src/subscriber_test.cpp.i
-.PHONY : src/subscriber_test.i
-
-# target to preprocess a source file
-src/subscriber_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_test.dir/build.make CMakeFiles/subscriber_test.dir/src/subscriber_test.cpp.i
-.PHONY : src/subscriber_test.cpp.i
-
-src/subscriber_test.s: src/subscriber_test.cpp.s
-.PHONY : src/subscriber_test.s
+src/template_node/my_first_node.s: src/template_node/my_first_node.cpp.s
+.PHONY : src/template_node/my_first_node.s
 
 # target to generate assembly for a file
-src/subscriber_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_test.dir/build.make CMakeFiles/subscriber_test.dir/src/subscriber_test.cpp.s
-.PHONY : src/subscriber_test.cpp.s
+src/template_node/my_first_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_node.dir/build.make CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.s
+.PHONY : src/template_node/my_first_node.cpp.s
 
 src/tests_publisher_subscriber/publisher_and_subscriber_test.o: src/tests_publisher_subscriber/publisher_and_subscriber_test.cpp.o
 .PHONY : src/tests_publisher_subscriber/publisher_and_subscriber_test.o
@@ -358,6 +310,30 @@ src/tests_publisher_subscriber/publisher_and_subscriber_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_and_subscriber_test.dir/build.make CMakeFiles/publisher_and_subscriber_test.dir/src/tests_publisher_subscriber/publisher_and_subscriber_test.cpp.s
 .PHONY : src/tests_publisher_subscriber/publisher_and_subscriber_test.cpp.s
 
+src/tests_publisher_subscriber/publisher_test.o: src/tests_publisher_subscriber/publisher_test.cpp.o
+.PHONY : src/tests_publisher_subscriber/publisher_test.o
+
+# target to build an object file
+src/tests_publisher_subscriber/publisher_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_test.dir/build.make CMakeFiles/publisher_test.dir/src/tests_publisher_subscriber/publisher_test.cpp.o
+.PHONY : src/tests_publisher_subscriber/publisher_test.cpp.o
+
+src/tests_publisher_subscriber/publisher_test.i: src/tests_publisher_subscriber/publisher_test.cpp.i
+.PHONY : src/tests_publisher_subscriber/publisher_test.i
+
+# target to preprocess a source file
+src/tests_publisher_subscriber/publisher_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_test.dir/build.make CMakeFiles/publisher_test.dir/src/tests_publisher_subscriber/publisher_test.cpp.i
+.PHONY : src/tests_publisher_subscriber/publisher_test.cpp.i
+
+src/tests_publisher_subscriber/publisher_test.s: src/tests_publisher_subscriber/publisher_test.cpp.s
+.PHONY : src/tests_publisher_subscriber/publisher_test.s
+
+# target to generate assembly for a file
+src/tests_publisher_subscriber/publisher_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_test.dir/build.make CMakeFiles/publisher_test.dir/src/tests_publisher_subscriber/publisher_test.cpp.s
+.PHONY : src/tests_publisher_subscriber/publisher_test.cpp.s
+
 src/tests_publisher_subscriber/publisher_test2.o: src/tests_publisher_subscriber/publisher_test2.cpp.o
 .PHONY : src/tests_publisher_subscriber/publisher_test2.o
 
@@ -382,6 +358,30 @@ src/tests_publisher_subscriber/publisher_test2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher_test_2.dir/build.make CMakeFiles/publisher_test_2.dir/src/tests_publisher_subscriber/publisher_test2.cpp.s
 .PHONY : src/tests_publisher_subscriber/publisher_test2.cpp.s
 
+src/tests_publisher_subscriber/subscriber_test.o: src/tests_publisher_subscriber/subscriber_test.cpp.o
+.PHONY : src/tests_publisher_subscriber/subscriber_test.o
+
+# target to build an object file
+src/tests_publisher_subscriber/subscriber_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_test.dir/build.make CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o
+.PHONY : src/tests_publisher_subscriber/subscriber_test.cpp.o
+
+src/tests_publisher_subscriber/subscriber_test.i: src/tests_publisher_subscriber/subscriber_test.cpp.i
+.PHONY : src/tests_publisher_subscriber/subscriber_test.i
+
+# target to preprocess a source file
+src/tests_publisher_subscriber/subscriber_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_test.dir/build.make CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.i
+.PHONY : src/tests_publisher_subscriber/subscriber_test.cpp.i
+
+src/tests_publisher_subscriber/subscriber_test.s: src/tests_publisher_subscriber/subscriber_test.cpp.s
+.PHONY : src/tests_publisher_subscriber/subscriber_test.s
+
+# target to generate assembly for a file
+src/tests_publisher_subscriber/subscriber_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_test.dir/build.make CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.s
+.PHONY : src/tests_publisher_subscriber/subscriber_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,21 +402,21 @@ help:
 	@echo "... publisher_test"
 	@echo "... publisher_test_2"
 	@echo "... subscriber_test"
-	@echo "... src/my_first_node.o"
-	@echo "... src/my_first_node.i"
-	@echo "... src/my_first_node.s"
-	@echo "... src/publisher_test.o"
-	@echo "... src/publisher_test.i"
-	@echo "... src/publisher_test.s"
-	@echo "... src/subscriber_test.o"
-	@echo "... src/subscriber_test.i"
-	@echo "... src/subscriber_test.s"
+	@echo "... src/template_node/my_first_node.o"
+	@echo "... src/template_node/my_first_node.i"
+	@echo "... src/template_node/my_first_node.s"
 	@echo "... src/tests_publisher_subscriber/publisher_and_subscriber_test.o"
 	@echo "... src/tests_publisher_subscriber/publisher_and_subscriber_test.i"
 	@echo "... src/tests_publisher_subscriber/publisher_and_subscriber_test.s"
+	@echo "... src/tests_publisher_subscriber/publisher_test.o"
+	@echo "... src/tests_publisher_subscriber/publisher_test.i"
+	@echo "... src/tests_publisher_subscriber/publisher_test.s"
 	@echo "... src/tests_publisher_subscriber/publisher_test2.o"
 	@echo "... src/tests_publisher_subscriber/publisher_test2.i"
 	@echo "... src/tests_publisher_subscriber/publisher_test2.s"
+	@echo "... src/tests_publisher_subscriber/subscriber_test.o"
+	@echo "... src/tests_publisher_subscriber/subscriber_test.i"
+	@echo "... src/tests_publisher_subscriber/subscriber_test.s"
 .PHONY : help
 
 

@@ -1,4 +1,7 @@
 [console_scripts]
-my_first_node = my_first_package.my_first_node:main
-publisher_test = my_first_package.publisher_test:main
-subscriber_test = my_first_package.subscriber_test:main
+my_first_node = my_first_package.template_node.my_first_node:main
+publisher_test = my_first_package.tests_publisher_subscriber.publisher_test:main
+subscriber_test = my_first_package.tests_publisher_subscriber.subscriber_test:main
+test_service_client = my_first_package.tests_services.test_service_client:main
+test_service_client_no_oop = my_first_package.tests_services.test_service_client_no_oop:main
+test_service_server = my_first_package.tests_services.test_service_server:main

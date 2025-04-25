@@ -1,3 +1,3 @@
 #!/bin/bash
 colcon build
-source ~/.bashrc
+source install/setup.bash

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-007373dc62adcf837c2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_first_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_cpp_pkg_uninstall-b0c6f4c4569d75084a32.json",
+					"name" : "my_first_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_node-fbb8936f4569238433d3.json",
+					"name" : "my_first_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_and_subscriber_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_and_subscriber_test-9e3ca961e640f817fb8a.json",
+					"name" : "publisher_and_subscriber_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_test-8f3ea65465eabe4b050b.json",
+					"name" : "publisher_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_test_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_test_2-b8970b108f5029ce90a2.json",
+					"name" : "publisher_test_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber_test-2349c891e1f6fa26ba35.json",
+					"name" : "subscriber_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f2507ac513af6c265536.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg",
+		"source" : "/home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
