@@ -1,0 +1,4 @@
+[console_scripts]
+my_first_node = my_first_package.my_first_node:main
+publisher_test = my_first_package.publisher_test:main
+subscriber_test = my_first_package.subscriber_test:main

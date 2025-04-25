@@ -1,0 +1,41 @@
+[0.028s] Invoking command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg -- -j6 -l6
+[0.062s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.308s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.316s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.357s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.367s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.473s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.524s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.638s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.769s] -- Configuring done (0.7s)
+[0.823s] -- Generating done (0.0s)
+[0.843s] -- Build files have been written to: /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg
+[0.893s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_test.dir/src/publisher_test.cpp.o[0m
+[0.905s] [ 75%] Built target my_first_node
+[4.864s] [100%] [32m[1mLinking CXX executable publisher_test[0m
+[5.240s] [100%] Built target publisher_test
+[5.254s] Invoked command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg -- -j6 -l6
+[5.263s] Invoking command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg
+[5.272s] -- Install configuration: ""
+[5.272s] -- Execute custom install script
+[5.272s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/my_first_node
+[5.272s] -- Symlinking: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_test
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_cpp_pkg
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_cpp_pkg
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/ament_prefix_path.sh
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/ament_prefix_path.dsv
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/path.sh
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/path.dsv
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.bash
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.sh
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.zsh
+[5.285s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.dsv
+[5.285s] -- Symlinking: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/package.dsv
+[5.296s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/ament_index/resource_index/packages/my_first_cpp_pkg
+[5.296s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/cmake/my_first_cpp_pkgConfig.cmake
+[5.296s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/cmake/my_first_cpp_pkgConfig-version.cmake
+[5.296s] -- Up-to-date symlink: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/package.xml
+[5.297s] Invoked command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg

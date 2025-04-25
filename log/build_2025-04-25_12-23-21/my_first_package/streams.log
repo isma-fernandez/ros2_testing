@@ -1,0 +1,26 @@
+[1.103s] Invoking command in '/home/neverdiedooms/ros2_test_ws/src/my_first_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/neverdiedooms/ros2_test_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/neverdiedooms/ros2_test_ws/build/my_first_package/build install --record /home/neverdiedooms/ros2_test_ws/build/my_first_package/install.log --single-version-externally-managed install_data
+[1.345s] running egg_info
+[1.350s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[1.350s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[1.350s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[1.352s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[1.352s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[1.383s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.383s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.385s] running build
+[1.386s] running build_py
+[1.387s] copying my_first_package/publisher_test.py -> /home/neverdiedooms/ros2_test_ws/build/my_first_package/build/lib/my_first_package
+[1.387s] running install
+[1.393s] running install_lib
+[1.405s] copying /home/neverdiedooms/ros2_test_ws/build/my_first_package/build/lib/my_first_package/publisher_test.py -> /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.409s] byte-compiling /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/publisher_test.py to publisher_test.cpython-312.pyc
+[1.409s] running install_data
+[1.409s] copying package.xml -> /home/neverdiedooms/ros2_test_ws/install/my_first_package/share/my_first_package
+[1.409s] running install_egg_info
+[1.419s] removing '/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info' (and everything under it)
+[1.420s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info
+[1.420s] running install_scripts
+[1.508s] Installing my_first_node script to /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/my_first_package
+[1.509s] Installing publisher_test script to /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/my_first_package
+[1.510s] writing list of installed files to '/home/neverdiedooms/ros2_test_ws/build/my_first_package/install.log'
+[1.532s] Invoked command in '/home/neverdiedooms/ros2_test_ws/src/my_first_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/neverdiedooms/ros2_test_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/neverdiedooms/ros2_test_ws/build/my_first_package/build install --record /home/neverdiedooms/ros2_test_ws/build/my_first_package/install.log --single-version-externally-managed install_data

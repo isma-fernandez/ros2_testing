@@ -1,0 +1,1 @@
+/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/ament_cmake_core/my_first_cpp_pkgConfig-version.cmake
