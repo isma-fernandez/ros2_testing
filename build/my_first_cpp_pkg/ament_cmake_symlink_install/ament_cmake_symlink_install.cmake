@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "my_first_node" "publisher_test" "subscriber_test" "DESTINATION" "lib/my_first_cpp_pkg")
+# install("TARGETS" "my_first_node" "publisher_test" "subscriber_test" "publisher_test_2" "publisher_and_subscriber_test" "DESTINATION" "lib/my_first_cpp_pkg")
 include("/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_first_cpp_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

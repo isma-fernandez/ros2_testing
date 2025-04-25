@@ -694,4 +694,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/my_first_node.dir/DependInfo.cmake"
   "CMakeFiles/publisher_test.dir/DependInfo.cmake"
   "CMakeFiles/subscriber_test.dir/DependInfo.cmake"
+  "CMakeFiles/publisher_test_2.dir/DependInfo.cmake"
+  "CMakeFiles/publisher_and_subscriber_test.dir/DependInfo.cmake"
   )

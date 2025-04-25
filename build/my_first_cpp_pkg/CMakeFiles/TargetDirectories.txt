@@ -3,6 +3,8 @@
 /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/my_first_node.dir
 /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/publisher_test.dir
 /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/subscriber_test.dir
+/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/publisher_test_2.dir
+/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/publisher_and_subscriber_test.dir
 /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/test.dir
 /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/rebuild_cache.dir
