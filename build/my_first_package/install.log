@@ -5,9 +5,9 @@
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/test_service_client_no_oop.py
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node/__init__.py
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node/my_first_node.py
-/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_publisher_subscriber/publisher_test.py
-/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_publisher_subscriber/__init__.py
-/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_publisher_subscriber/subscriber_test.py
+/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/publisher_test.py
+/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/__init__.py
+/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/subscriber_test.py
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/__pycache__/__init__.cpython-312.pyc
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/__pycache__/test_service_client.cpython-312.pyc
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/__pycache__/__init__.cpython-312.pyc
@@ -15,9 +15,9 @@
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/__pycache__/test_service_client_no_oop.cpython-312.pyc
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node/__pycache__/__init__.cpython-312.pyc
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node/__pycache__/my_first_node.cpython-312.pyc
-/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_publisher_subscriber/__pycache__/publisher_test.cpython-312.pyc
-/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_publisher_subscriber/__pycache__/__init__.cpython-312.pyc
-/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_publisher_subscriber/__pycache__/subscriber_test.cpython-312.pyc
+/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/__pycache__/publisher_test.cpython-312.pyc
+/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/__pycache__/__init__.cpython-312.pyc
+/home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/__pycache__/subscriber_test.cpython-312.pyc
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/share/ament_index/resource_index/packages/my_first_package
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/share/my_first_package/package.xml
 /home/neverdiedooms/ros2_test_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info/SOURCES.txt

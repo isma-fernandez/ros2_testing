@@ -1,0 +1,39 @@
+[0.040s] Invoking command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg -- -j6 -l6
+[0.298s] [ 12%] Built target publisher_test_2
+[0.321s] [ 25%] Built target test_service_client_no_oop
+[0.327s] [ 37%] Built target publisher_test
+[0.333s] [ 50%] Built target my_first_node
+[0.350s] [ 62%] Built target publisher_and_subscriber_test
+[0.354s] [ 75%] Built target subscriber_test
+[0.393s] [ 87%] Built target test_service_client
+[0.418s] [ 93%] [32mBuilding CXX object CMakeFiles/test_service_server.dir/src/tests_services/test_service_server.cpp.o[0m
+[4.717s] [100%] [32m[1mLinking CXX executable test_service_server[0m
+[4.877s] [100%] Built target test_service_server
+[4.891s] Invoked command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg -- -j6 -l6
+[4.904s] Invoking command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg
+[4.914s] -- Install configuration: ""
+[4.914s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/my_first_node
+[4.914s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_test
+[4.914s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/subscriber_test
+[4.914s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_test_2
+[4.914s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_and_subscriber_test
+[4.915s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_client_no_oop
+[4.915s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_client
+[4.917s] -- Installing: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_server
+[4.917s] -- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_server" to ""
+[4.917s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_cpp_pkg
+[4.917s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_cpp_pkg
+[4.917s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/ament_prefix_path.sh
+[4.918s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/ament_prefix_path.dsv
+[4.918s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/path.sh
+[4.918s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/path.dsv
+[4.918s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.bash
+[4.918s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.sh
+[4.918s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.zsh
+[4.918s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.dsv
+[4.919s] -- Installing: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/package.dsv
+[4.919s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/ament_index/resource_index/packages/my_first_cpp_pkg
+[4.919s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/cmake/my_first_cpp_pkgConfig.cmake
+[4.919s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/cmake/my_first_cpp_pkgConfig-version.cmake
+[4.919s] -- Up-to-date: /home/neverdiedooms/ros2_test_ws/install/my_first_cpp_pkg/share/my_first_cpp_pkg/package.xml
+[4.930s] Invoked command in '/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neverdiedooms/ros2_test_ws/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg

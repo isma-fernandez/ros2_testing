@@ -69,28 +69,28 @@ include CMakeFiles/subscriber_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/subscriber_test.dir/flags.make
 
-CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o: CMakeFiles/subscriber_test.dir/flags.make
-CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o: /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/tests_publisher_subscriber/subscriber_test.cpp
-CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o: CMakeFiles/subscriber_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o -MF CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o.d -o CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o -c /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/tests_publisher_subscriber/subscriber_test.cpp
+CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o: CMakeFiles/subscriber_test.dir/flags.make
+CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o: /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/tests_topics/subscriber_test.cpp
+CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o: CMakeFiles/subscriber_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o -MF CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o.d -o CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o -c /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/tests_topics/subscriber_test.cpp
 
-CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/tests_publisher_subscriber/subscriber_test.cpp > CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.i
+CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/tests_topics/subscriber_test.cpp > CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.i
 
-CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/tests_publisher_subscriber/subscriber_test.cpp -o CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.s
+CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/src/tests_topics/subscriber_test.cpp -o CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.s
 
 # Object files for target subscriber_test
 subscriber_test_OBJECTS = \
-"CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o"
+"CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o"
 
 # External object files for target subscriber_test
 subscriber_test_EXTERNAL_OBJECTS =
 
-subscriber_test: CMakeFiles/subscriber_test.dir/src/tests_publisher_subscriber/subscriber_test.cpp.o
+subscriber_test: CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o
 subscriber_test: CMakeFiles/subscriber_test.dir/build.make
 subscriber_test: /opt/ros/jazzy/lib/librclcpp.so
 subscriber_test: /opt/ros/jazzy/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so

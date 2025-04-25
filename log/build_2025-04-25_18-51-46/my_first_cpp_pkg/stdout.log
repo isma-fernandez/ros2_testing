@@ -1,0 +1,10 @@
+[  6%] [32mBuilding CXX object CMakeFiles/test_service_client_no_oop.dir/src/tests_services/test_service_client_no_oop.cpp.o[0m
+[ 18%] Built target subscriber_test
+[ 31%] Built target publisher_and_subscriber_test
+[ 43%] Built target publisher_test
+[ 56%] Built target publisher_test_2
+[ 68%] Built target my_first_node
+[ 81%] Built target test_service_client
+[ 87%] [32mBuilding CXX object CMakeFiles/test_service_server.dir/src/tests_services/test_service_server.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_service_server[0m
+[ 93%] Built target test_service_server
