@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg
+CMAKE_SOURCE_DIR = /home/neverdiedooms/ros2_testing/src/my_first_cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg
+CMAKE_BINARY_DIR = /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg
 
 # Utility rule file for my_first_cpp_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/my_first_cpp_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/my_first_cpp_pkg_uninstall.dir/progress.make
 
 CMakeFiles/my_first_cpp_pkg_uninstall:
-	/usr/bin/cmake -P /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 my_first_cpp_pkg_uninstall: CMakeFiles/my_first_cpp_pkg_uninstall
 my_first_cpp_pkg_uninstall: CMakeFiles/my_first_cpp_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/my_first_cpp_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/my_first_cpp_pkg_uninstall.dir/clean
 
 CMakeFiles/my_first_cpp_pkg_uninstall.dir/depend:
-	cd /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles/my_first_cpp_pkg_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neverdiedooms/ros2_testing/src/my_first_cpp_pkg /home/neverdiedooms/ros2_testing/src/my_first_cpp_pkg /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg/CMakeFiles/my_first_cpp_pkg_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_first_cpp_pkg_uninstall.dir/depend
 

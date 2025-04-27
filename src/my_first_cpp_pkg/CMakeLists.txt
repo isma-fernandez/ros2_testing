@@ -18,6 +18,8 @@ add_executable(publisher_and_subscriber_test src/tests_topics/publisher_and_subs
 add_executable(test_service_client_no_oop src/tests_services/test_service_client_no_oop.cpp)
 add_executable(test_service_client src/tests_services/test_service_client.cpp)
 add_executable(test_service_server src/tests_services/test_service_server.cpp)
+add_executable(number_counter src/tests_services_and_topics/number_counter.cpp)
+add_executable(number_publisher src/tests_services_and_topics/number_publisher.cpp)
 
 ament_target_dependencies(publisher_test_2 rclcpp example_interfaces)
 ament_target_dependencies(my_first_node rclcpp)
@@ -27,6 +29,8 @@ ament_target_dependencies(publisher_and_subscriber_test rclcpp example_interface
 ament_target_dependencies(test_service_client_no_oop rclcpp example_interfaces)
 ament_target_dependencies(test_service_client rclcpp example_interfaces)
 ament_target_dependencies(test_service_server rclcpp example_interfaces)
+ament_target_dependencies(number_counter rclcpp example_interfaces)
+ament_target_dependencies(number_publisher rclcpp example_interfaces)
 
 install(TARGETS
   my_first_node 
@@ -37,6 +41,8 @@ install(TARGETS
   test_service_client_no_oop
   test_service_client
   test_service_server
+  number_counter
+  number_publisher
   DESTINATION lib/${PROJECT_NAME}
 )
 

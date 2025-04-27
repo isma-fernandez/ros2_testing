@@ -12,8 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "ament_cmake_core/package.cmake"
   "ament_cmake_package_templates/templates.cmake"
-  "/home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/CMakeLists.txt"
-  "/home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg/package.xml"
+  "/home/neverdiedooms/ros2_testing/src/my_first_cpp_pkg/CMakeLists.txt"
+  "/home/neverdiedooms/ros2_testing/src/my_first_cpp_pkg/package.xml"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config-version.cmake"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config.cmake"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-shared-targets-none.cmake"
@@ -770,4 +770,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_service_client_no_oop.dir/DependInfo.cmake"
   "CMakeFiles/test_service_client.dir/DependInfo.cmake"
   "CMakeFiles/test_service_server.dir/DependInfo.cmake"
+  "CMakeFiles/number_counter.dir/DependInfo.cmake"
+  "CMakeFiles/number_publisher.dir/DependInfo.cmake"
   )

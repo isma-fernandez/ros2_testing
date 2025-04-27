@@ -1,0 +1,72 @@
+[0.506s] Invoking command in '/home/neverdiedooms/ros2_testing/src/my_first_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/neverdiedooms/ros2_testing/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/neverdiedooms/ros2_testing/build/my_first_package/build install --record /home/neverdiedooms/ros2_testing/build/my_first_package/install.log --single-version-externally-managed install_data
+[0.651s] running egg_info
+[0.651s] creating ../../build/my_first_package/my_first_package.egg-info
+[0.660s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.661s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.661s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.661s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.661s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.661s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.679s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.680s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.680s] running build
+[0.680s] running build_py
+[0.680s] creating /home/neverdiedooms/ros2_testing/build/my_first_package/build
+[0.680s] creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib
+[0.680s] creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package
+[0.680s] copying my_first_package/__init__.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package
+[0.680s] creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node
+[0.680s] copying my_first_package/template_node/my_first_node.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node
+[0.681s] copying my_first_package/template_node/__init__.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node
+[0.681s] creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics
+[0.681s] copying my_first_package/tests_topics/subscriber_test.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics
+[0.681s] copying my_first_package/tests_topics/__init__.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics
+[0.681s] copying my_first_package/tests_topics/publisher_test.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics
+[0.681s] creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services
+[0.681s] copying my_first_package/tests_services/test_service_client.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services
+[0.681s] copying my_first_package/tests_services/test_service_client_no_oop.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services
+[0.681s] copying my_first_package/tests_services/test_service_server.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services
+[0.681s] copying my_first_package/tests_services/__init__.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services
+[0.681s] running install
+[0.684s] running install_lib
+[0.694s] creating /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[0.694s] creating /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node
+[0.694s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node/my_first_node.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node
+[0.694s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node/__init__.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node
+[0.694s] creating /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics
+[0.694s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics/subscriber_test.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics
+[0.694s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics/__init__.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics
+[0.694s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics/publisher_test.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics
+[0.694s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/__init__.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[0.694s] creating /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services
+[0.694s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services/test_service_client.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services
+[0.695s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services/test_service_client_no_oop.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services
+[0.695s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services/test_service_server.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services
+[0.695s] copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services/__init__.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services
+[0.695s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node/my_first_node.py to my_first_node.cpython-312.pyc
+[0.695s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node/__init__.py to __init__.cpython-312.pyc
+[0.695s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/subscriber_test.py to subscriber_test.cpython-312.pyc
+[0.695s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/__init__.py to __init__.cpython-312.pyc
+[0.695s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/publisher_test.py to publisher_test.cpython-312.pyc
+[0.695s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/__init__.py to __init__.cpython-312.pyc
+[0.695s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/test_service_client.py to test_service_client.cpython-312.pyc
+[0.696s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/test_service_client_no_oop.py to test_service_client_no_oop.cpython-312.pyc
+[0.696s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/test_service_server.py to test_service_server.cpython-312.pyc
+[0.696s] byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/__init__.py to __init__.cpython-312.pyc
+[0.696s] running install_data
+[0.696s] creating /home/neverdiedooms/ros2_testing/install/my_first_package/share/ament_index
+[0.696s] creating /home/neverdiedooms/ros2_testing/install/my_first_package/share/ament_index/resource_index
+[0.696s] creating /home/neverdiedooms/ros2_testing/install/my_first_package/share/ament_index/resource_index/packages
+[0.696s] copying resource/my_first_package -> /home/neverdiedooms/ros2_testing/install/my_first_package/share/ament_index/resource_index/packages
+[0.696s] copying package.xml -> /home/neverdiedooms/ros2_testing/install/my_first_package/share/my_first_package
+[0.697s] running install_egg_info
+[0.707s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info
+[0.707s] running install_scripts
+[0.774s] Installing my_first_node script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package
+[0.774s] Installing publisher_test script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package
+[0.774s] Installing subscriber_test script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package
+[0.775s] Installing test_service_client script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package
+[0.775s] Installing test_service_client_no_oop script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package
+[0.775s] Installing test_service_server script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package
+[0.775s] writing list of installed files to '/home/neverdiedooms/ros2_testing/build/my_first_package/install.log'
+[0.793s] Invoked command in '/home/neverdiedooms/ros2_testing/src/my_first_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/neverdiedooms/ros2_testing/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/neverdiedooms/ros2_testing/build/my_first_package/build install --record /home/neverdiedooms/ros2_testing/build/my_first_package/install.log --single-version-externally-managed install_data

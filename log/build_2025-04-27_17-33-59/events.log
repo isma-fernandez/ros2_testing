@@ -1,0 +1,265 @@
+[0.000000] (-) TimerEvent: {}
+[0.000079] (my_first_cpp_pkg) JobQueued: {'identifier': 'my_first_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000097] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.000461] (my_first_cpp_pkg) JobStarted: {'identifier': 'my_first_cpp_pkg'}
+[0.003748] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.006962] (my_first_cpp_pkg) JobProgress: {'identifier': 'my_first_cpp_pkg', 'progress': 'cmake'}
+[0.007260] (my_first_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/neverdiedooms/ros2_testing/src/my_first_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg'], 'cwd': '/home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'neverdiedooms', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/neverdiedooms', 'OLDPWD': '/home/neverdiedooms', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2193', 'SYSTEMD_EXEC_PID': '2764', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3720', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'neverdiedooms', 'JOURNAL_STREAM': '9:16922', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'neverdiedooms', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/neverdiedooms:@/tmp/.ICE-unix/2618,unix/neverdiedooms:/tmp/.ICE-unix/2618', 'INVOCATION_ID': '96706530f2e54584a98f0e086d48d5d2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install/my_first_package:/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c8c856ed-72ec-4d08-a1cf-64109eed146c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/neverdiedooms/ros2_testing/install/my_first_package:/opt/ros/jazzy'}), 'shell': False}
+[0.099987] (-) TimerEvent: {}
+[0.154630] (my_first_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200106] (-) TimerEvent: {}
+[0.223840] (my_first_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.241170] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300237] (-) TimerEvent: {}
+[0.310692] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.318236] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.318619] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.318846] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.326596] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.397086] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400352] (-) TimerEvent: {}
+[0.403591] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.403910] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.404211] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.407411] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500562] (-) TimerEvent: {}
+[0.509217] (my_first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_package', 'build', '--build-base', '/home/neverdiedooms/ros2_testing/build/my_first_package/build', 'install', '--record', '/home/neverdiedooms/ros2_testing/build/my_first_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/neverdiedooms/ros2_testing/src/my_first_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'neverdiedooms', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/neverdiedooms', 'OLDPWD': '/home/neverdiedooms', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2193', 'SYSTEMD_EXEC_PID': '2764', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3720', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'neverdiedooms', 'JOURNAL_STREAM': '9:16922', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'neverdiedooms', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/neverdiedooms:@/tmp/.ICE-unix/2618,unix/neverdiedooms:/tmp/.ICE-unix/2618', 'INVOCATION_ID': '96706530f2e54584a98f0e086d48d5d2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install/my_first_package:/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c8c856ed-72ec-4d08-a1cf-64109eed146c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/neverdiedooms/ros2_testing/build/my_first_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/neverdiedooms/ros2_testing/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages:/home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.518717] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.591405] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.600770] (-) TimerEvent: {}
+[0.621348] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.630255] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.641952] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.654643] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.654864] (my_first_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.655109] (my_first_package) StdoutLine: {'line': b'creating ../../build/my_first_package/my_first_package.egg-info\n'}
+[0.664023] (my_first_package) StdoutLine: {'line': b'writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO\n'}
+[0.664235] (my_first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt\n'}
+[0.664341] (my_first_package) StdoutLine: {'line': b'writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt\n'}
+[0.664419] (my_first_package) StdoutLine: {'line': b'writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt\n'}
+[0.664495] (my_first_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt\n'}
+[0.664641] (my_first_package) StdoutLine: {'line': b"writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'\n"}
+[0.682935] (my_first_package) StdoutLine: {'line': b"reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'\n"}
+[0.683322] (my_first_package) StdoutLine: {'line': b"writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'\n"}
+[0.683513] (my_first_package) StdoutLine: {'line': b'running build\n'}
+[0.683593] (my_first_package) StdoutLine: {'line': b'running build_py\n'}
+[0.683718] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/build/my_first_package/build\n'}
+[0.683795] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib\n'}
+[0.683915] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package\n'}
+[0.683996] (my_first_package) StdoutLine: {'line': b'copying my_first_package/__init__.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package\n'}
+[0.684095] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node\n'}
+[0.684184] (my_first_package) StdoutLine: {'line': b'copying my_first_package/template_node/my_first_node.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node\n'}
+[0.684252] (my_first_package) StdoutLine: {'line': b'copying my_first_package/template_node/__init__.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node\n'}
+[0.684323] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics\n'}
+[0.684392] (my_first_package) StdoutLine: {'line': b'copying my_first_package/tests_topics/subscriber_test.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics\n'}
+[0.684462] (my_first_package) StdoutLine: {'line': b'copying my_first_package/tests_topics/__init__.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics\n'}
+[0.684531] (my_first_package) StdoutLine: {'line': b'copying my_first_package/tests_topics/publisher_test.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics\n'}
+[0.684600] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services\n'}
+[0.684669] (my_first_package) StdoutLine: {'line': b'copying my_first_package/tests_services/test_service_client.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services\n'}
+[0.684738] (my_first_package) StdoutLine: {'line': b'copying my_first_package/tests_services/test_service_client_no_oop.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services\n'}
+[0.684807] (my_first_package) StdoutLine: {'line': b'copying my_first_package/tests_services/test_service_server.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services\n'}
+[0.684876] (my_first_package) StdoutLine: {'line': b'copying my_first_package/tests_services/__init__.py -> /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services\n'}
+[0.684964] (my_first_package) StdoutLine: {'line': b'running install\n'}
+[0.688184] (my_first_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.697322] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package\n'}
+[0.697482] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node\n'}
+[0.697562] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node/my_first_node.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node\n'}
+[0.697657] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/template_node/__init__.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node\n'}
+[0.697730] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics\n'}
+[0.697799] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics/subscriber_test.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics\n'}
+[0.697868] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics/__init__.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics\n'}
+[0.697994] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_topics/publisher_test.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics\n'}
+[0.698069] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/__init__.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package\n'}
+[0.698135] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services\n'}
+[0.698199] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services/test_service_client.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services\n'}
+[0.698265] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services/test_service_client_no_oop.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services\n'}
+[0.698334] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services/test_service_server.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services\n'}
+[0.698403] (my_first_package) StdoutLine: {'line': b'copying /home/neverdiedooms/ros2_testing/build/my_first_package/build/lib/my_first_package/tests_services/__init__.py -> /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services\n'}
+[0.698470] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node/my_first_node.py to my_first_node.cpython-312.pyc\n'}
+[0.698557] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/template_node/__init__.py to __init__.cpython-312.pyc\n'}
+[0.698647] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/subscriber_test.py to subscriber_test.cpython-312.pyc\n'}
+[0.698716] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/__init__.py to __init__.cpython-312.pyc\n'}
+[0.698800] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_topics/publisher_test.py to publisher_test.cpython-312.pyc\n'}
+[0.698898] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/__init__.py to __init__.cpython-312.pyc\n'}
+[0.698988] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/test_service_client.py to test_service_client.cpython-312.pyc\n'}
+[0.699276] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/test_service_client_no_oop.py to test_service_client_no_oop.cpython-312.pyc\n'}
+[0.699480] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/test_service_server.py to test_service_server.cpython-312.pyc\n'}
+[0.699713] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package/tests_services/__init__.py to __init__.cpython-312.pyc\n'}
+[0.699798] (my_first_package) StdoutLine: {'line': b'running install_data\n'}
+[0.699884] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/install/my_first_package/share/ament_index\n'}
+[0.699970] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/install/my_first_package/share/ament_index/resource_index\n'}
+[0.700072] (my_first_package) StdoutLine: {'line': b'creating /home/neverdiedooms/ros2_testing/install/my_first_package/share/ament_index/resource_index/packages\n'}
+[0.700140] (my_first_package) StdoutLine: {'line': b'copying resource/my_first_package -> /home/neverdiedooms/ros2_testing/install/my_first_package/share/ament_index/resource_index/packages\n'}
+[0.700205] (my_first_package) StdoutLine: {'line': b'copying package.xml -> /home/neverdiedooms/ros2_testing/install/my_first_package/share/my_first_package\n'}
+[0.700275] (my_first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.700860] (-) TimerEvent: {}
+[0.709089] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.710359] (my_first_package) StdoutLine: {'line': b'Copying ../../build/my_first_package/my_first_package.egg-info to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info\n'}
+[0.710757] (my_first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.711058] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.775248] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.777905] (my_first_package) StdoutLine: {'line': b'Installing my_first_node script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package\n'}
+[0.778099] (my_first_package) StdoutLine: {'line': b'Installing publisher_test script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package\n'}
+[0.778197] (my_first_package) StdoutLine: {'line': b'Installing subscriber_test script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package\n'}
+[0.778313] (my_first_package) StdoutLine: {'line': b'Installing test_service_client script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package\n'}
+[0.778408] (my_first_package) StdoutLine: {'line': b'Installing test_service_client_no_oop script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package\n'}
+[0.778531] (my_first_package) StdoutLine: {'line': b'Installing test_service_server script to /home/neverdiedooms/ros2_testing/install/my_first_package/lib/my_first_package\n'}
+[0.778650] (my_first_package) StdoutLine: {'line': b"writing list of installed files to '/home/neverdiedooms/ros2_testing/build/my_first_package/install.log'\n"}
+[0.791297] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.796194] (my_first_package) CommandEnded: {'returncode': 0}
+[0.801683] (-) TimerEvent: {}
+[0.802998] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 0}
+[0.811693] (my_first_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.867794] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[0.901876] (-) TimerEvent: {}
+[0.978237] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.002070] (-) TimerEvent: {}
+[1.003349] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.012315] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg\n'}
+[1.019460] (my_first_cpp_pkg) CommandEnded: {'returncode': 0}
+[1.019819] (my_first_cpp_pkg) JobProgress: {'identifier': 'my_first_cpp_pkg', 'progress': 'build'}
+[1.020465] (my_first_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg', '--', '-j20', '-l20'], 'cwd': '/home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'neverdiedooms', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/neverdiedooms', 'OLDPWD': '/home/neverdiedooms', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2193', 'SYSTEMD_EXEC_PID': '2764', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3720', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'neverdiedooms', 'JOURNAL_STREAM': '9:16922', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'neverdiedooms', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/neverdiedooms:@/tmp/.ICE-unix/2618,unix/neverdiedooms:/tmp/.ICE-unix/2618', 'INVOCATION_ID': '96706530f2e54584a98f0e086d48d5d2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install/my_first_package:/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c8c856ed-72ec-4d08-a1cf-64109eed146c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/neverdiedooms/ros2_testing/install/my_first_package:/opt/ros/jazzy'}), 'shell': False}
+[1.057961] (my_first_cpp_pkg) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/my_first_node.dir/src/template_node/my_first_node.cpp.o\x1b[0m\n'}
+[1.058441] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/publisher_test.dir/src/tests_topics/publisher_test.cpp.o\x1b[0m\n'}
+[1.058646] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/tests_services_and_topics/number_counter.cpp.o\x1b[0m\n'}
+[1.059630] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/test_service_server.dir/src/tests_services/test_service_server.cpp.o\x1b[0m\n'}
+[1.062050] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_test.dir/src/tests_topics/subscriber_test.cpp.o\x1b[0m\n'}
+[1.062203] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/test_service_client_no_oop.dir/src/tests_services/test_service_client_no_oop.cpp.o\x1b[0m\n'}
+[1.063210] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/test_service_client.dir/src/tests_services/test_service_client.cpp.o\x1b[0m\n'}
+[1.064952] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/number_publisher.dir/src/tests_services_and_topics/number_publisher.cpp.o\x1b[0m\n'}
+[1.066249] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/publisher_test_2.dir/src/tests_topics/publisher_test2.cpp.o\x1b[0m\n'}
+[1.067434] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_and_subscriber_test.dir/src/tests_topics/publisher_and_subscriber_test.cpp.o\x1b[0m\n'}
+[1.102185] (-) TimerEvent: {}
+[1.202563] (-) TimerEvent: {}
+[1.302929] (-) TimerEvent: {}
+[1.403258] (-) TimerEvent: {}
+[1.503620] (-) TimerEvent: {}
+[1.604001] (-) TimerEvent: {}
+[1.704355] (-) TimerEvent: {}
+[1.804713] (-) TimerEvent: {}
+[1.905063] (-) TimerEvent: {}
+[2.005425] (-) TimerEvent: {}
+[2.105770] (-) TimerEvent: {}
+[2.206054] (-) TimerEvent: {}
+[2.306461] (-) TimerEvent: {}
+[2.406809] (-) TimerEvent: {}
+[2.507227] (-) TimerEvent: {}
+[2.607553] (-) TimerEvent: {}
+[2.707919] (-) TimerEvent: {}
+[2.808299] (-) TimerEvent: {}
+[2.908667] (-) TimerEvent: {}
+[3.009059] (-) TimerEvent: {}
+[3.109392] (-) TimerEvent: {}
+[3.209766] (-) TimerEvent: {}
+[3.310138] (-) TimerEvent: {}
+[3.410527] (-) TimerEvent: {}
+[3.510898] (-) TimerEvent: {}
+[3.611281] (-) TimerEvent: {}
+[3.711645] (-) TimerEvent: {}
+[3.791432] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable my_first_node\x1b[0m\n'}
+[3.811807] (-) TimerEvent: {}
+[3.912213] (-) TimerEvent: {}
+[3.971208] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 55%] Built target my_first_node\n'}
+[4.012368] (-) TimerEvent: {}
+[4.112714] (-) TimerEvent: {}
+[4.213054] (-) TimerEvent: {}
+[4.313386] (-) TimerEvent: {}
+[4.357130] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable test_service_server\x1b[0m\n'}
+[4.384404] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable test_service_client_no_oop\x1b[0m\n'}
+[4.413540] (-) TimerEvent: {}
+[4.513883] (-) TimerEvent: {}
+[4.528348] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 65%] Built target test_service_server\n'}
+[4.569790] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 65%] Built target test_service_client_no_oop\n'}
+[4.614053] (-) TimerEvent: {}
+[4.714391] (-) TimerEvent: {}
+[4.814797] (-) TimerEvent: {}
+[4.915119] (-) TimerEvent: {}
+[4.925441] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable test_service_client\x1b[0m\n'}
+[5.015275] (-) TimerEvent: {}
+[5.103822] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 70%] Built target test_service_client\n'}
+[5.115391] (-) TimerEvent: {}
+[5.168161] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_test\x1b[0m\n'}
+[5.215612] (-) TimerEvent: {}
+[5.316024] (-) TimerEvent: {}
+[5.331782] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target publisher_test\n'}
+[5.416256] (-) TimerEvent: {}
+[5.518409] (-) TimerEvent: {}
+[5.618672] (-) TimerEvent: {}
+[5.719061] (-) TimerEvent: {}
+[5.819459] (-) TimerEvent: {}
+[5.919857] (-) TimerEvent: {}
+[6.020257] (-) TimerEvent: {}
+[6.120636] (-) TimerEvent: {}
+[6.185526] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable number_publisher\x1b[0m\n'}
+[6.212084] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable publisher_test_2\x1b[0m\n'}
+[6.220743] (-) TimerEvent: {}
+[6.321131] (-) TimerEvent: {}
+[6.345521] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 85%] Built target number_publisher\n'}
+[6.375697] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 85%] Built target publisher_test_2\n'}
+[6.421357] (-) TimerEvent: {}
+[6.521630] (-) TimerEvent: {}
+[6.621979] (-) TimerEvent: {}
+[6.722333] (-) TimerEvent: {}
+[6.822555] (-) TimerEvent: {}
+[6.922788] (-) TimerEvent: {}
+[7.023059] (-) TimerEvent: {}
+[7.123263] (-) TimerEvent: {}
+[7.223510] (-) TimerEvent: {}
+[7.323728] (-) TimerEvent: {}
+[7.424090] (-) TimerEvent: {}
+[7.524302] (-) TimerEvent: {}
+[7.566793] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable subscriber_test\x1b[0m\n'}
+[7.624399] (-) TimerEvent: {}
+[7.724704] (-) TimerEvent: {}
+[7.759747] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 90%] Built target subscriber_test\n'}
+[7.769019] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[7.824920] (-) TimerEvent: {}
+[7.925316] (-) TimerEvent: {}
+[7.956957] (my_first_cpp_pkg) StdoutLine: {'line': b'[ 95%] Built target number_counter\n'}
+[8.025590] (-) TimerEvent: {}
+[8.078550] (my_first_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher_and_subscriber_test\x1b[0m\n'}
+[8.125793] (-) TimerEvent: {}
+[8.226132] (-) TimerEvent: {}
+[8.246030] (my_first_cpp_pkg) StdoutLine: {'line': b'[100%] Built target publisher_and_subscriber_test\n'}
+[8.255636] (my_first_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.256223] (my_first_cpp_pkg) JobProgress: {'identifier': 'my_first_cpp_pkg', 'progress': 'install'}
+[8.262702] (my_first_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg'], 'cwd': '/home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'neverdiedooms', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/neverdiedooms', 'OLDPWD': '/home/neverdiedooms', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2193', 'SYSTEMD_EXEC_PID': '2764', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3720', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'neverdiedooms', 'JOURNAL_STREAM': '9:16922', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'neverdiedooms', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/neverdiedooms:@/tmp/.ICE-unix/2618,unix/neverdiedooms:/tmp/.ICE-unix/2618', 'INVOCATION_ID': '96706530f2e54584a98f0e086d48d5d2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install/my_first_package:/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c8c856ed-72ec-4d08-a1cf-64109eed146c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/neverdiedooms/ros2_testing/install/my_first_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/neverdiedooms/ros2_testing/install/my_first_package:/opt/ros/jazzy'}), 'shell': False}
+[8.267924] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.268031] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/my_first_node\n'}
+[8.268074] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/my_first_node" to ""\n'}
+[8.268220] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_test\n'}
+[8.268918] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_test" to ""\n'}
+[8.268961] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/subscriber_test\n'}
+[8.271078] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/subscriber_test" to ""\n'}
+[8.271266] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_test_2\n'}
+[8.271642] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_test_2" to ""\n'}
+[8.271700] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_and_subscriber_test\n'}
+[8.274224] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/publisher_and_subscriber_test" to ""\n'}
+[8.274307] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_client_no_oop\n'}
+[8.274802] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_client_no_oop" to ""\n'}
+[8.274840] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_client\n'}
+[8.275331] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_client" to ""\n'}
+[8.275416] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_server\n'}
+[8.275733] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/test_service_server" to ""\n'}
+[8.275811] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/number_counter\n'}
+[8.278197] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/number_counter" to ""\n'}
+[8.278279] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/number_publisher\n'}
+[8.279044] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/lib/my_first_cpp_pkg/number_publisher" to ""\n'}
+[8.279083] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_cpp_pkg\n'}
+[8.279118] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_cpp_pkg\n'}
+[8.279241] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.279334] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.279374] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/path.sh\n'}
+[8.279409] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/environment/path.dsv\n'}
+[8.279560] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.bash\n'}
+[8.279640] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.sh\n'}
+[8.279679] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.zsh\n'}
+[8.279717] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/local_setup.dsv\n'}
+[8.279751] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/package.dsv\n'}
+[8.279894] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/ament_index/resource_index/packages/my_first_cpp_pkg\n'}
+[8.279971] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/cmake/my_first_cpp_pkgConfig.cmake\n'}
+[8.280027] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/cmake/my_first_cpp_pkgConfig-version.cmake\n'}
+[8.280062] (my_first_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/neverdiedooms/ros2_testing/install/my_first_cpp_pkg/share/my_first_cpp_pkg/package.xml\n'}
+[8.281406] (my_first_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.288222] (my_first_cpp_pkg) JobEnded: {'identifier': 'my_first_cpp_pkg', 'rc': 0}
+[8.288783] (-) EventReactorShutdown: {}

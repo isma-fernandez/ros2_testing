@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neverdiedooms/ros2_test_ws/src/my_first_cpp_pkg
+CMAKE_SOURCE_DIR = /home/neverdiedooms/ros2_testing/src/my_first_cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg
+CMAKE_BINARY_DIR = /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg/CMakeFiles /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/neverdiedooms/ros2_test_ws/build/my_first_cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neverdiedooms/ros2_testing/build/my_first_cpp_pkg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -301,6 +301,32 @@ test_service_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_service_server.dir/build.make CMakeFiles/test_service_server.dir/build
 .PHONY : test_service_server/fast
 
+#=============================================================================
+# Target rules for targets named number_counter
+
+# Build rule for target.
+number_counter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_counter
+.PHONY : number_counter
+
+# fast build rule for target.
+number_counter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/build
+.PHONY : number_counter/fast
+
+#=============================================================================
+# Target rules for targets named number_publisher
+
+# Build rule for target.
+number_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 number_publisher
+.PHONY : number_publisher
+
+# fast build rule for target.
+number_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/build
+.PHONY : number_publisher/fast
+
 src/template_node/my_first_node.o: src/template_node/my_first_node.cpp.o
 .PHONY : src/template_node/my_first_node.o
 
@@ -396,6 +422,54 @@ src/tests_services/test_service_server.s: src/tests_services/test_service_server
 src/tests_services/test_service_server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_service_server.dir/build.make CMakeFiles/test_service_server.dir/src/tests_services/test_service_server.cpp.s
 .PHONY : src/tests_services/test_service_server.cpp.s
+
+src/tests_services_and_topics/number_counter.o: src/tests_services_and_topics/number_counter.cpp.o
+.PHONY : src/tests_services_and_topics/number_counter.o
+
+# target to build an object file
+src/tests_services_and_topics/number_counter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/tests_services_and_topics/number_counter.cpp.o
+.PHONY : src/tests_services_and_topics/number_counter.cpp.o
+
+src/tests_services_and_topics/number_counter.i: src/tests_services_and_topics/number_counter.cpp.i
+.PHONY : src/tests_services_and_topics/number_counter.i
+
+# target to preprocess a source file
+src/tests_services_and_topics/number_counter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/tests_services_and_topics/number_counter.cpp.i
+.PHONY : src/tests_services_and_topics/number_counter.cpp.i
+
+src/tests_services_and_topics/number_counter.s: src/tests_services_and_topics/number_counter.cpp.s
+.PHONY : src/tests_services_and_topics/number_counter.s
+
+# target to generate assembly for a file
+src/tests_services_and_topics/number_counter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/tests_services_and_topics/number_counter.cpp.s
+.PHONY : src/tests_services_and_topics/number_counter.cpp.s
+
+src/tests_services_and_topics/number_publisher.o: src/tests_services_and_topics/number_publisher.cpp.o
+.PHONY : src/tests_services_and_topics/number_publisher.o
+
+# target to build an object file
+src/tests_services_and_topics/number_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/tests_services_and_topics/number_publisher.cpp.o
+.PHONY : src/tests_services_and_topics/number_publisher.cpp.o
+
+src/tests_services_and_topics/number_publisher.i: src/tests_services_and_topics/number_publisher.cpp.i
+.PHONY : src/tests_services_and_topics/number_publisher.i
+
+# target to preprocess a source file
+src/tests_services_and_topics/number_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/tests_services_and_topics/number_publisher.cpp.i
+.PHONY : src/tests_services_and_topics/number_publisher.cpp.i
+
+src/tests_services_and_topics/number_publisher.s: src/tests_services_and_topics/number_publisher.cpp.s
+.PHONY : src/tests_services_and_topics/number_publisher.s
+
+# target to generate assembly for a file
+src/tests_services_and_topics/number_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_publisher.dir/build.make CMakeFiles/number_publisher.dir/src/tests_services_and_topics/number_publisher.cpp.s
+.PHONY : src/tests_services_and_topics/number_publisher.cpp.s
 
 src/tests_topics/publisher_and_subscriber_test.o: src/tests_topics/publisher_and_subscriber_test.cpp.o
 .PHONY : src/tests_topics/publisher_and_subscriber_test.o
@@ -509,6 +583,8 @@ help:
 	@echo "... my_first_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... my_first_node"
+	@echo "... number_counter"
+	@echo "... number_publisher"
 	@echo "... publisher_and_subscriber_test"
 	@echo "... publisher_test"
 	@echo "... publisher_test_2"
@@ -528,6 +604,12 @@ help:
 	@echo "... src/tests_services/test_service_server.o"
 	@echo "... src/tests_services/test_service_server.i"
 	@echo "... src/tests_services/test_service_server.s"
+	@echo "... src/tests_services_and_topics/number_counter.o"
+	@echo "... src/tests_services_and_topics/number_counter.i"
+	@echo "... src/tests_services_and_topics/number_counter.s"
+	@echo "... src/tests_services_and_topics/number_publisher.o"
+	@echo "... src/tests_services_and_topics/number_publisher.i"
+	@echo "... src/tests_services_and_topics/number_publisher.s"
 	@echo "... src/tests_topics/publisher_and_subscriber_test.o"
 	@echo "... src/tests_topics/publisher_and_subscriber_test.i"
 	@echo "... src/tests_topics/publisher_and_subscriber_test.s"
