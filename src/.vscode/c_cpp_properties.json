@@ -7,7 +7,8 @@
       },
       "includePath": [
         "/opt/ros/jazzy/include/**",
-        "/usr/include/**"
+        "/usr/include/**",
+        "/home/neverdiedooms/ros2_testing/install/test_interfaces/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

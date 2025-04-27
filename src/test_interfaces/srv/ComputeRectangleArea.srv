@@ -1,0 +1,5 @@
+# No need to have info in request or response, the only thing that must be in the file is "---"
+float64 length
+float64 width
+---
+float64 area

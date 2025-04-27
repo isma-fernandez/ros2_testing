@@ -25,7 +25,8 @@ setup(
             "subscriber_test = my_first_package.tests_topics.subscriber_test:main",
             "test_service_server = my_first_package.tests_services.test_service_server:main",
             "test_service_client_no_oop = my_first_package.tests_services.test_service_client_no_oop:main",
-            "test_service_client = my_first_package.tests_services.test_service_client:main"
+            "test_service_client = my_first_package.tests_services.test_service_client:main",
+            "test_hardware_status = my_first_package.tests_interfaces.hardware_status_publisher:main"
         ],
     },
 )
